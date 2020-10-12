@@ -78,3 +78,23 @@ se déplacer dans la branche vers laquelle on va merger (fusionner)
 Faire une fusion de la branche `testbranch` (vers la branche actuelle `master`)
 
     $> git merge testbranch
+
+Supprimer une branche inutile ici `testbranch` avec `git branch -d <branche_a_supprimer>`
+
+    $> git branch -d testbranch
+
+Forcer la suppression avec `-D` (à la place de `-d`)
+    
+    $> git branch -D testbranch
+
+Vérifier les branches     
+    
+    $> git branch 
+
+Affiche - la branche testbranche est effacée
+
+    * main
+
+Mettre à jour la suppression sur github (remote)    
+    
+    $> git push origin --delete testbranch
