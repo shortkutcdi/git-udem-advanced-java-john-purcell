@@ -69,4 +69,12 @@ Ajout au dépôt distant (remote) - définir la branche
 
     $> git push origin testbranch
 
+## merge and delete branches
 
+se déplacer dans la branche vers laquelle on va merger (fusionner)
+
+    $> git checkout master
+
+Faire une fusion de la branche `testbranch` (vers la branche actuelle `master`)
+
+    $> git merge testbranch
