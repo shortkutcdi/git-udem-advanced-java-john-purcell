@@ -91,7 +91,7 @@ Vérifier les branches
     
     $> git branch 
 
-Affiche - la branche testbranche est effacée
+Affiche les branches - la branche testbranche est effacée
 
     * main
 

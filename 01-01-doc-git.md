@@ -91,3 +91,37 @@ Définir l'éditeur nano
 ## résumé - git status
 
     $> git status
+
+## Créer un dépôt github et récupérer dépôt 
+
+    $> git clone <adresse-github du nouveau dépôt>
+
+## git workflow - pousser vers github
+
+Après avoir fait :
+
+- les changements sur les fichiers et dossiers, 
+- ajouté les modifications (fichiers/dossiers) - `git add .` 
+- vérifié les modifications (optionnel) avec `git status`
+- effectué un commit (`git commit -m "changed"`)
+
+On peut pousser le dépôt vers github (distant - remote)
+
+    $> git push origin master 
+
+ici "master" est la branche principale --> elle peut s'appeler "main" dans ce cas remplacer marter par main
+
+    $> git push origin main 
+
+identifiants (credentials) à renseigner une première fois
+
+Donner notre nom et adresse mail pour l'ordinateur
+
+    $ git config --global user.name "Fernand Martinez"
+    
+    $ git config --global user.email "fernand.martinez22@outlook.fr"
+
+Username for 'https://github.com':  fernand.martinez22@outlook.fr  
+
+ATTENTION - A éviter par soucis de sécurité :
+Password for 'https://fernand.martinez22@outlook.fr@github.com':     ****
