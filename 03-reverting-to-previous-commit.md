@@ -27,6 +27,7 @@ public class App {
 
 Ajouter les changements 
 
+    $> git status
     $> git add *
     $> git commit -m "Changed to Hello world 2"
     $> git status
