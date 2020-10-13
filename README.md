@@ -2,4 +2,4 @@
 
 This is the Cave of programming Advanced Java course.
 
-This is some extra line that i'm adding.
+This is an extra line
