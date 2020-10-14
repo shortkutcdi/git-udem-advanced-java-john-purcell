@@ -70,7 +70,7 @@ dans un répertoire, lancer visual studio code
 
     $> git config --global core.editor "code"
 
-Définir l'éditeur nano
+Ou définir l'éditeur nano
 
     $> git config --global core.editor "nano"
 
@@ -94,6 +94,8 @@ Définir l'éditeur nano
 
 ## Créer un dépôt github et récupérer dépôt 
 
+Dans un répertoire accueillant le repository cloné de github
+
     $> git clone <adresse-github du nouveau dépôt>
 
 ## git workflow - pousser vers github
@@ -101,7 +103,7 @@ Définir l'éditeur nano
 Après avoir fait :
 
 - les changements sur les fichiers et dossiers, 
-- ajouté les modifications (fichiers/dossiers) - `git add .` 
+- ajouté les modifications (fichiers/dossiers) - `git add *` 
 - vérifié les modifications (optionnel) avec `git status`
 - effectué un commit (`git commit -m "changed"`)
 
@@ -109,7 +111,7 @@ On peut pousser le dépôt vers github (distant - remote)
 
     $> git push origin master 
 
-ici "master" est la branche principale --> elle peut s'appeler "main" dans ce cas remplacer marter par main
+ici "master" est la branche principale --> elle peut s'appeler "main" dans ce cas remplacer master par main
 
     $> git push origin main 
 
