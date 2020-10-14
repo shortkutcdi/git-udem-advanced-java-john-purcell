@@ -80,7 +80,7 @@ Ou définir l'éditeur nano
 
 ## Ajouter tous les fichiers
 
-    $> git add *
+    $> git add * -- à préférer
 
     $> git add .
 
@@ -94,7 +94,7 @@ Ou définir l'éditeur nano
 
 ## Créer un dépôt github et récupérer dépôt 
 
-Dans un répertoire accueillant le repository cloné de github
+Dans un répertoire accueillant le repository cloné de github avec :
 
     $> git clone <adresse-github du nouveau dépôt>
 
